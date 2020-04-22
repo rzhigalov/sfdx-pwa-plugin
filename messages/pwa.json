@@ -1,0 +1,21 @@
+{
+  "buildCommandDescription": "Builds PWA project and packs for SFDC deployment",
+  "initCommandDescription": "Initializes files and settings for plugin",
+  "packageManagerFlagDescription": "Used package manager (npm, yarn, pnpm)",
+  "frameworkFlagDescription": "Chosen framework (react, ng)",
+  "buildcmdFlagDescription": "PWA build command",
+  "apiversionFlagDescription": "SFDC API version",
+  "pwaPathFlagDescription": "Relative path to PWA project (folder with PWA's package.json)",
+  "ngProjectFlagDescription": "Angular Project name (specific to Angular)",
+  "sfdcPathFlagDescription": "Relative path to SFDC target dir",
+  "sfdcPageFlagDescription": "SFDC Static Visualforce page name",
+  "sfdcResourceFlagDescription": "SFDC Static Resource name",
+  "promptCreateDir": "Do you want to create folder? (y/n)",
+  "promptRewriteFile": "File already exists. Do you want to rewrite it (all contents will be lost)? (y/n)",
+  "promptCreateVfTemplate": "Do you want to initialize Visualforce template (`vf.template.page`)? (y/n)",
+  "errorInvalidApiVersion": "Invalid API version format [%s]",
+  "errorUnresolvableDir": "Can't resolve path to '%s'.",
+  "errorUnresolvableAngularProject": "Can't resolve Angular project",
+  "errorBuildFailed": "Failed to build PWA",
+  "errorVfTransformFailed": "Failed to compose VF page"
+}
